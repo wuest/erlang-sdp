@@ -1,0 +1,14 @@
+{application, sdp,
+ [{description, "SDP (RFC8866) parser"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["BSD-3"]},
+  {links, []}
+ ]}.
